@@ -1,2 +1,2 @@
-# <h1>Smash Data</h1>
+<h1>Smash Data</h1>
 Link:
