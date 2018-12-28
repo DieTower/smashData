@@ -1,2 +1,2 @@
 <h1>Smash Data</h1>
-Link:
+<h3>Link: https://dietower.github.io/smashData/</h3>
