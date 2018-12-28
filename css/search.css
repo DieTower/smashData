@@ -89,3 +89,12 @@ header.hiddenSearch #search {
     transition-delay:0s;
     transform:translateY(-150%);
 }
+
+header.showSearch h1 {
+    transform:translateY(-200%);
+}
+
+header.hiddenSearch h1 {
+    transition-delay:0.4s;
+    transform:translateY(0%);
+}

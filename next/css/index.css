@@ -1,0 +1,23 @@
+@font-face {
+    font-family:"superSmash";
+    src: url('../font/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf');
+}
+
+ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.hidden {
+    display:none;
+}
+
+body {
+    background-color:#f1f1f1;
+    overflow-x:hidden;
+}

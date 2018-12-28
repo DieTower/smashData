@@ -29,3 +29,51 @@
         transform:translateY(-1000%);
     }
 }
+
+.titleFirstEffect {
+    animation-name:titleFirstEffectAnimation;
+    animation-duration:0.8s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes titleFirstEffectAnimation {
+    from {
+        transform:translateY(-250%);
+    }
+
+    to {
+        transform:translateY(0%);
+    }
+}
+
+.characterContainerFirstEffect {
+    animation-name:characterContainerFirstEffectAnimation;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes characterContainerFirstEffectAnimation {
+    from {
+        transform:translateX(150%);
+    }
+
+    to {
+        transform:translateX(0%);
+    }
+}
+
+.arrowFirstEffect {
+    animation-name:arrowFirstEffectAnimation;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes arrowFirstEffectAnimation {
+    from {
+        transform:translateX(-1500%);
+    }
+
+    to {
+        transform:translateX(0%);
+    }
+}

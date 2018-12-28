@@ -6,7 +6,9 @@ class Search extends Menu {
         super();
 
         this.header = $("header");
-        this.input = $("#inputSearch",this.header);
+        this.title = $("#title", this.header);
+        this.search = $("#search", this.header);
+        this.input = $("#inputSearch",this.search);
         this.buttonSearch = $(".ButtonSearch");
         this.searchArrow = $(".searchArrow");
 
@@ -25,6 +27,7 @@ class Search extends Menu {
             this.header.classList.add("showSearch");
             this.comeBackMenuEffect();
             this.Button.classList.add("hidden");
+            this.title.classList.add("hidden");
             this.Characters.classList.add("dragCharacters");
 
             this.Main.classList.add("gridColumnExtend");
@@ -32,6 +35,7 @@ class Search extends Menu {
         } else {
 
             this.header.classList.add("hiddenSearch");
+            this.title.classList.remove("hidden");
 
             setTimeout(function() {
                 this.header.classList.remove("showSearch");
