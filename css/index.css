@@ -1,0 +1,47 @@
+@import url("./animation.css");
+@import url("./header.css");
+@import url("./main.css");
+@import url('./menu.css');
+@import url('./characters.css');
+@import url('./search.css');
+
+@font-face {
+    font-family:"superSmash";
+    src: url('../font/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf');
+}
+
+ul {
+    list-style:none;
+    margin:0px;
+    padding:0px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.hidden {
+    display:none;
+}
+
+body {
+    background-color:#f1f1f1;
+    overflow-x:hidden;
+}
+
+#container {
+    position:absolute;
+    
+    width:100%;
+    min-height:100vh;
+
+    display:grid;
+    grid-template-columns:10% auto 10%;
+    grid-template-rows:150px auto 100px;
+}
+
+@media(max-width:1130px) {
+    #container {
+        grid-template-columns:10% auto 10% !important;
+    }
+}

@@ -1,0 +1,74 @@
+main {
+    /* Fazer com que um efeito mude o três para o quatro */
+    grid-column:2/3;
+    grid-row:2/3;
+
+    padding:10px;
+
+    display:grid;
+    grid-template-columns:200px auto 200px;
+    grid-template-rows:200px auto 200px;
+}
+
+main.gridColumnExtend {
+    grid-column:2/4 !important;
+}
+
+main .arrow {
+    padding:15px;
+
+    cursor:pointer;
+    font-size:16px;
+
+    transition-property:"opacity","transform";
+    transition-duration:0.2s;
+}
+
+main .arrow i {
+    font-size:3em;
+}
+
+
+/* --- show menu effect --- */
+main.showMenu .menuContainer {
+    transform:translateX(0px);
+}
+
+main.showMenu .characterContainer ul {
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+
+main.showMenu .menuContainer .arrow {
+    opacity:0;
+}
+
+/* --- hidden menu effect --- */
+main.hiddenMenu .menuContainer {
+    transform:translateX(150px);
+}
+
+main.hiddenMenu .menuContainer ul {
+    transform:rotateY(90deg);
+}
+
+
+@media(max-width:1130px) {
+    main {
+        grid-column:1/3;
+        grid-row:2/3;
+
+        grid-template-columns:150px auto 150px;
+    }
+
+    main.hiddenMenu .menuContainer {
+        transform:translateX(100px) !important;
+    }
+}
+
+@media(max-width:1000px) {
+    main {
+        grid-column:1/4;
+        grid-template-columns:1% auto 1%;
+    }
+}

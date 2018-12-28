@@ -1,0 +1,33 @@
+header {
+    grid-column:2/3;
+    grid-row:1/2;
+
+    font-size:16px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+header h1 {
+    margin:5px;
+    padding:5px;
+
+    transition-property:"transform";
+    transition-duration:0.3s;
+}
+
+header h1 span {
+    font-family:"superSmash";
+    font-size:1.5em;
+}
+
+header.showSearch h1 {
+    transform:translateY(-200%);
+}
+
+header.hiddenSearch h1 {
+    transition-delay:0.4s;
+    transform:translateY(0%);
+}

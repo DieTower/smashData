@@ -1,0 +1,31 @@
+.showArrowComeBackEffect {
+    animation-name:showArrowComeBackEffectAnimation;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes showArrowComeBackEffectAnimation {
+    from {
+        transform:translateY(-1000%);
+    }
+
+    to {
+        transform:translateY(-0%);
+    }
+}
+
+.hiddenArrowComeBackEffect {
+    animation-name:hiddenArrowComeBackEffectAnimation;
+    animation-duration:1s;
+    animation-delay:0s;
+}
+
+@keyframes hiddenArrowComeBackEffectAnimation {
+    from {
+        transform:translateY(-0%);
+    }
+
+    to {
+        transform:translateY(-1000%);
+    }
+}
