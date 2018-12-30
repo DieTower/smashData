@@ -9,6 +9,8 @@ class Menu extends Main {
         this.ButtonPlus = $(".ButtonPlus");
         this.ButtonBack = $(".comeBackMenu");
         this.attachmentEvents = this.attachmentEventsMenu;
+
+        this.ButtonBack.addEventListener("click", this.comeBackMenuEffect.bind(this));
     }
 
     comeBackMenuEffect() {
