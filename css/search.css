@@ -55,13 +55,13 @@
 #search form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color:#e74c3c;
 }
-::-moz-placeholder { /* Firefox 19+ */
+#search form input::-moz-placeholder { /* Firefox 19+ */
     color:#e74c3c;
 }
-:-ms-input-placeholder { /* IE 10+ */
+#search form input:-ms-input-placeholder { /* IE 10+ */
     color:#e74c3c;
 }
-:-moz-placeholder { /* Firefox 18- */
+#search form input:-moz-placeholder { /* Firefox 18- */
     color:#e74c3c;
 }
 

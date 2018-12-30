@@ -9,22 +9,6 @@ class Menu extends Main {
         this.ButtonPlus = $(".ButtonPlus");
         this.ButtonBack = $(".comeBackMenu");
         this.attachmentEvents = this.attachmentEventsMenu;
-        
-        this.attachmentEvents();
-    }
-
-    attachmentEventsMenu() {
-        this.ButtonSearch.addEventListener("click", this.searchEffect.bind(this));
-        this.ButtonPlus.addEventListener("click", this.plusEffect.bind(this));
-        this.ButtonBack.addEventListener("click", this.comeBackMenuEffect.bind(this));
-    }
-
-    searchEffect() {
-        console.log("Seach Effect");
-    }
-
-    plusEffect() {
-        console.log("Plus Effect");
     }
 
     comeBackMenuEffect() {

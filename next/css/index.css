@@ -1,3 +1,6 @@
+@import url('./animation.css');
+@import url('./from.css');
+
 @font-face {
     font-family:"superSmash";
     src: url('../font/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf');
@@ -20,4 +23,18 @@ a {
 body {
     background-color:#f1f1f1;
     overflow-x:hidden;
+}
+
+#formContainer {
+    position:absolute;
+    top:0px;
+
+    width:100%;
+    height:100vh;
+
+    font-size:16px;
+
+    display:grid;
+    grid-template-columns:5% auto 5%;
+    grid-template-rows:5% 100px auto 100px;
 }

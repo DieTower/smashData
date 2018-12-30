@@ -1,0 +1,29 @@
+.containerUp {
+    animation-name:containerUpAnimation;
+    animation-duration:0.6s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes containerUpAnimation {
+    from {
+        transform:translateY(0%);
+    }
+    to {
+        transform:translateY(-120%);
+    }
+}
+
+.firstEffect {
+    animation-name:firstEffectAnimation;
+    animation-duration:0.6s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes firstEffectAnimation {
+    from {
+        transform:translateY(-120%);
+    }
+    to {
+        transform:translateY(0%);
+    }
+}

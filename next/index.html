@@ -17,7 +17,28 @@
     <body>
 
         <div id="container">
+            <div id="formContainer" class="firstEffect">
+                <h1>Insert a new character</h1>
 
+                <form action="javascript:void(0)" method="GET">
+                    <input type="text" class="text" placeholder="Name" required/>
+                    <input type="file" class="file"/>
+
+                    <button>
+                        <span>
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </button>
+                </form>
+
+                <div id="arrowComeBackContainer">
+                    <div id="arrowComeBack">
+                        <i class="fas fa-angle-up"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-    
+        
+        <script type="text/javascript" src="./js/function.js"></script>
+        <script type="module" src="./js/index.js"></script>
     </body>

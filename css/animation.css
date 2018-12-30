@@ -77,3 +77,33 @@
         transform:translateX(0%);
     }
 }
+
+.goToAddCharacterHeader {
+    animation-name:goToAddCharacterHeaderAnimation;
+    animation-duration:0.6s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes goToAddCharacterHeaderAnimation {
+    from {
+        transform:translateX(0%);
+    }
+    to {
+        transform:translateX(-120%);
+    }
+}
+
+.goToAddCharacterMain {
+    animation-name:goToAddCharacterMainAnimation;
+    animation-duration:0.6s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes goToAddCharacterMainAnimation {
+    from {
+        transform:translateX(0%);
+    }
+    to {
+        transform:translateX(120%);
+    }
+}
